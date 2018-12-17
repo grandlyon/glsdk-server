@@ -12,7 +12,7 @@ function requireEnvironmentVariables(varNames) {
   });
 }
 
-export const providers = {};
+export const providers :any= {};
 
 if (process.env.LDAP_SERVER_URL) {
   requireEnvironmentVariables([
